@@ -1,0 +1,6 @@
+{
+  "name": "Catholic Research Companion",
+  "description": "A scholarly study and research companion for Catholic readers featuring split-screen reading, theological glossary with Latin phrase definition, and magisterial cross-referencing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

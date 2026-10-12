@@ -1,11 +1,56 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": null,
+  "updated_utc": "2026-10-12T16:58:05+00:00",
   "days": [
+    {
+      "date": "2026-10-03",
+      "title": "Saturday of the Twenty-sixth Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/100326.cfm"
+    },
+    {
+      "date": "2026-10-04",
+      "title": "Twenty-seventh Sunday in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/100426.cfm"
+    },
+    {
+      "date": "2026-10-05",
+      "title": "Monday of the Twenty-seventh Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/100526.cfm"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Tuesday of the Twenty-seventh Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/100626.cfm"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Memorial of Our Lady of the Rosary",
+      "url": "https://bible.usccb.org/bible/readings/100726.cfm"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Thursday of the Twenty-seventh Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/100826.cfm"
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Friday of the Twenty-seventh Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/100926.cfm"
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Saturday of the Twenty-seventh Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/101026.cfm"
+    },
     {
       "date": "2026-10-11",
       "title": "Twenty-eighth Sunday in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/101126.cfm"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Monday of the Twenty-eighth Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/101226.cfm"
     }
   ]
 }

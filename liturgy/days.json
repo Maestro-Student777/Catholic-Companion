@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-10-13T15:14:45+00:00",
+  "updated_utc": "2026-10-14T13:03:44+00:00",
   "days": [
-    {
-      "date": "2026-10-04",
-      "title": "Twenty-seventh Sunday in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/100426.cfm"
-    },
     {
       "date": "2026-10-05",
       "title": "Monday of the Twenty-seventh Week in Ordinary Time",
@@ -51,6 +46,11 @@
       "date": "2026-10-13",
       "title": "Tuesday of the Twenty-eighth Week in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/101326.cfm"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Wednesday of the Twenty-eighth Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/101426.cfm"
     }
   ]
 }

@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-10-17T11:44:05+00:00",
+  "updated_utc": "2026-10-18T12:10:31+00:00",
   "days": [
-    {
-      "date": "2026-10-08",
-      "title": "Thursday of the Twenty-seventh Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/100826.cfm"
-    },
     {
       "date": "2026-10-09",
       "title": "Friday of the Twenty-seventh Week in Ordinary Time",
@@ -51,6 +46,11 @@
       "date": "2026-10-17",
       "title": "Memorial of Saint Ignatius of Antioch, Bishop and Martyr",
       "url": "https://bible.usccb.org/bible/readings/101726.cfm"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Twenty-ninth Sunday in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/101826.cfm"
     }
   ]
 }

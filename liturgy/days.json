@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-10-18T12:10:31+00:00",
+  "updated_utc": "2026-10-19T14:56:47+00:00",
   "days": [
-    {
-      "date": "2026-10-09",
-      "title": "Friday of the Twenty-seventh Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/100926.cfm"
-    },
     {
       "date": "2026-10-10",
       "title": "Saturday of the Twenty-seventh Week in Ordinary Time",
@@ -51,6 +46,11 @@
       "date": "2026-10-18",
       "title": "Twenty-ninth Sunday in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/101826.cfm"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Memorial of Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+      "url": "https://bible.usccb.org/bible/readings/101926.cfm"
     }
   ]
 }

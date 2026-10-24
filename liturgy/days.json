@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-10-23T12:50:21+00:00",
+  "updated_utc": "2026-10-24T12:12:23+00:00",
   "days": [
-    {
-      "date": "2026-10-14",
-      "title": "Wednesday of the Twenty-eighth Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/101426.cfm"
-    },
     {
       "date": "2026-10-15",
       "title": "Memorial of Saint Teresa of Jesus, Virgin and Doctor of the Church",
@@ -51,6 +46,11 @@
       "date": "2026-10-23",
       "title": "Friday of the Twenty-ninth Week in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/102326.cfm"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Saturday of the Twenty-ninth Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/102426.cfm"
     }
   ]
 }

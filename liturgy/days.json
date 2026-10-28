@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-10-27T13:32:04+00:00",
+  "updated_utc": "2026-10-28T14:27:14+00:00",
   "days": [
-    {
-      "date": "2026-10-18",
-      "title": "Twenty-ninth Sunday in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/101826.cfm"
-    },
     {
       "date": "2026-10-19",
       "title": "Memorial of Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
@@ -51,6 +46,11 @@
       "date": "2026-10-27",
       "title": "Tuesday of the Thirtieth Week in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/102726.cfm"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Feast of Saints Simon and Jude, Apostles",
+      "url": "https://bible.usccb.org/bible/readings/102826.cfm"
     }
   ]
 }

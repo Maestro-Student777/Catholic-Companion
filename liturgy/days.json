@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-03T15:28:07+00:00",
+  "updated_utc": "2026-11-04T15:43:18+00:00",
   "days": [
-    {
-      "date": "2026-10-25",
-      "title": "Thirtieth Sunday in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/102526.cfm"
-    },
     {
       "date": "2026-10-26",
       "title": "Monday of the Thirtieth Week in Ordinary Time",
@@ -51,6 +46,11 @@
       "date": "2026-11-03",
       "title": "Tuesday of the Thirty-first Week in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/110326.cfm"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Memorial of Saint Charles Borromeo, Bishop",
+      "url": "https://bible.usccb.org/bible/readings/110426.cfm"
     }
   ]
 }

@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-05T15:46:02+00:00",
+  "updated_utc": "2026-11-06T15:20:45+00:00",
   "days": [
-    {
-      "date": "2026-10-27",
-      "title": "Tuesday of the Thirtieth Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/102726.cfm"
-    },
     {
       "date": "2026-10-28",
       "title": "Feast of Saints Simon and Jude, Apostles",
@@ -51,6 +46,11 @@
       "date": "2026-11-05",
       "title": "Thursday of the Thirty-first Week in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/110526.cfm"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Friday of the Thirty-first Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/110626.cfm"
     }
   ]
 }

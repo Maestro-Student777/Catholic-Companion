@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Catholic Companion · Motion Showcase",
+  "short_name": "Motion Showcase",
+  "description": "An offline-friendly collection of animated visual demonstrations and a Eucharistic-history story map.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#14110f",
+  "theme_color": "#14110f",
+  "icons": [
+    {
+      "src": "./icons/motion-showcase.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

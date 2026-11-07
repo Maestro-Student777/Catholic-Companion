@@ -31,3 +31,4 @@ The service worker checks for a newer worker when the page is revisited. New ver
 - `manifest.webmanifest` — standalone app metadata and icon declaration.
 - `sw.js` — scoped, versioned offline cache and navigation fallback.
 - `icons/motion-showcase.svg` — local scalable app icon.
+- `icons/motion-showcase-192.png` and `icons/motion-showcase-512.png` — Android/Chromium raster app icons (192 px and 512 px).

@@ -3,10 +3,12 @@
  */
 "use strict";
 
-const CACHE_NAME = "cc-motion-showcase-v1";
+const CACHE_NAME = "cc-motion-showcase-v2";
 const SHELL_ASSETS = [
   new URL("./manifest.webmanifest", self.registration.scope).href,
-  new URL("./icons/motion-showcase.svg", self.registration.scope).href
+  new URL("./icons/motion-showcase.svg", self.registration.scope).href,
+  new URL("./icons/motion-showcase-192.png", self.registration.scope).href,
+  new URL("./icons/motion-showcase-512.png", self.registration.scope).href
 ];
 const PAGE_URL = new URL("./", self.registration.scope);
 const PAGE_FILE_URL = new URL("./index.html", self.registration.scope);

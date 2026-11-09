@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-08T14:29:19+00:00",
+  "updated_utc": "2026-11-09T17:46:39+00:00",
   "days": [
-    {
-      "date": "2026-10-30",
-      "title": "Friday of the Thirtieth Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/103026.cfm"
-    },
     {
       "date": "2026-10-31",
       "title": "Saturday of the Thirtieth Week in Ordinary Time",
@@ -51,6 +46,11 @@
       "date": "2026-11-08",
       "title": "Thirty-second Sunday in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/110826.cfm"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Feast of the Dedication of the Lateran Basilica in Rome",
+      "url": "https://bible.usccb.org/bible/readings/110926.cfm"
     }
   ]
 }

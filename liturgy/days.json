@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-09T17:46:39+00:00",
+  "updated_utc": "2026-11-10T15:45:02+00:00",
   "days": [
-    {
-      "date": "2026-10-31",
-      "title": "Saturday of the Thirtieth Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/103126.cfm"
-    },
     {
       "date": "2026-11-01",
       "title": "Solemnity of All Saints",
@@ -51,6 +46,11 @@
       "date": "2026-11-09",
       "title": "Feast of the Dedication of the Lateran Basilica in Rome",
       "url": "https://bible.usccb.org/bible/readings/110926.cfm"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Memorial of Saint Leo the Great, Pope and Doctor of the Church",
+      "url": "https://bible.usccb.org/bible/readings/111026.cfm"
     }
   ]
 }

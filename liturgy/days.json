@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-10T15:45:02+00:00",
+  "updated_utc": "2026-11-11T15:34:49+00:00",
   "days": [
-    {
-      "date": "2026-11-01",
-      "title": "Solemnity of All Saints",
-      "url": "https://bible.usccb.org/bible/readings/110126.cfm"
-    },
     {
       "date": "2026-11-02",
       "title": "The Commemoration of All the Faithful Departed",
@@ -51,6 +46,11 @@
       "date": "2026-11-10",
       "title": "Memorial of Saint Leo the Great, Pope and Doctor of the Church",
       "url": "https://bible.usccb.org/bible/readings/111026.cfm"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Memorial of Saint Martin of Tours, Bishop",
+      "url": "https://bible.usccb.org/bible/readings/111126.cfm"
     }
   ]
 }

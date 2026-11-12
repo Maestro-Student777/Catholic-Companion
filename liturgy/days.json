@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-11T15:34:49+00:00",
+  "updated_utc": "2026-11-12T16:11:08+00:00",
   "days": [
-    {
-      "date": "2026-11-02",
-      "title": "The Commemoration of All the Faithful Departed",
-      "url": "https://bible.usccb.org/bible/readings/110226.cfm"
-    },
     {
       "date": "2026-11-03",
       "title": "Tuesday of the Thirty-first Week in Ordinary Time",
@@ -51,6 +46,11 @@
       "date": "2026-11-11",
       "title": "Memorial of Saint Martin of Tours, Bishop",
       "url": "https://bible.usccb.org/bible/readings/111126.cfm"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Memorial of Saint Josaphat, Bishop and Martyr",
+      "url": "https://bible.usccb.org/bible/readings/111226.cfm"
     }
   ]
 }

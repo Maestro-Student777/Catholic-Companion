@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-13T15:39:38+00:00",
+  "updated_utc": "2026-11-14T14:26:46+00:00",
   "days": [
-    {
-      "date": "2026-11-04",
-      "title": "Memorial of Saint Charles Borromeo, Bishop",
-      "url": "https://bible.usccb.org/bible/readings/110426.cfm"
-    },
     {
       "date": "2026-11-05",
       "title": "Thursday of the Thirty-first Week in Ordinary Time",
@@ -51,6 +46,11 @@
       "date": "2026-11-13",
       "title": "Memorial of Saint Frances Xavier Cabrini, Virgin [In the Dioceses of the United States]",
       "url": "https://bible.usccb.org/bible/readings/111326.cfm"
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Saturday of the Thirty-second Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/111426.cfm"
     }
   ]
 }

@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-15T14:56:24+00:00",
+  "updated_utc": "2026-11-16T17:23:26+00:00",
   "days": [
-    {
-      "date": "2026-11-06",
-      "title": "Friday of the Thirty-first Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/110626.cfm"
-    },
     {
       "date": "2026-11-07",
       "title": "Saturday of the Thirty-first Week in Ordinary Time",
@@ -51,6 +46,11 @@
       "date": "2026-11-15",
       "title": "Thirty-third Sunday in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/111526.cfm"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Monday of the Thirty-third Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/111626.cfm"
     }
   ]
 }

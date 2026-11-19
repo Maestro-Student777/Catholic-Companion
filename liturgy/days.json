@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-18T16:42:00+00:00",
+  "updated_utc": "2026-11-19T16:44:54+00:00",
   "days": [
-    {
-      "date": "2026-11-09",
-      "title": "Feast of the Dedication of the Lateran Basilica in Rome",
-      "url": "https://bible.usccb.org/bible/readings/110926.cfm"
-    },
     {
       "date": "2026-11-10",
       "title": "Memorial of Saint Leo the Great, Pope and Doctor of the Church",
@@ -51,6 +46,11 @@
       "date": "2026-11-18",
       "title": "Wednesday of the Thirty-third Week in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/111826.cfm"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Thursday of the Thirty-third Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/111926.cfm"
     }
   ]
 }

@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-20T16:20:11+00:00",
+  "updated_utc": "2026-11-21T15:34:30+00:00",
   "days": [
-    {
-      "date": "2026-11-11",
-      "title": "Memorial of Saint Martin of Tours, Bishop",
-      "url": "https://bible.usccb.org/bible/readings/111126.cfm"
-    },
     {
       "date": "2026-11-12",
       "title": "Memorial of Saint Josaphat, Bishop and Martyr",
@@ -51,6 +46,11 @@
       "date": "2026-11-20",
       "title": "Friday of the Thirty-third Week in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/112026.cfm"
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Memorial of the Presentation of the Blessed Virgin Mary",
+      "url": "https://bible.usccb.org/bible/readings/112126.cfm"
     }
   ]
 }

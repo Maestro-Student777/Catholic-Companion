@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "0.1",
+  "project": "Nexus — Catholic Companion",
+  "notice": "Illustrative seed records for schema and UI testing. Not a verified historical dataset and not a Bible text corpus.",
+  "sources": [
+    {
+      "id": "SRC-EXODUS-12-40",
+      "record_type": "source",
+      "title": "Exodus 12:40–41",
+      "source_type": "biblical_passage",
+      "traditions_to_compare": [
+        "Masoretic Text",
+        "Septuagint",
+        "Samaritan Pentateuch"
+      ],
+      "review_status": "needs_textual_collation",
+      "notes": "Compare the wording and scope of the 430-year period. Keep each witness and its manuscript support separate."
+    },
+    {
+      "id": "SRC-DEUT-31-24",
+      "record_type": "source",
+      "title": "Deuteronomy 31:24–26",
+      "source_type": "biblical_passage",
+      "review_status": "passage_locator_only",
+      "notes": "Relevant to the narrative's account of Moses writing the Law and entrusting the book to the Levites."
+    },
+    {
+      "id": "SRC-BROOKLYN-351446",
+      "record_type": "source",
+      "title": "Papyrus Brooklyn 35.1446",
+      "source_type": "egyptian_administrative_document",
+      "date_display": "Second millennium BC; precise dating to be checked against the chosen Egyptological reference",
+      "review_status": "source_identification_needs_bibliography",
+      "notes": "Investigate the list of people identified as Asiatics. Do not identify them as Israelites without independent evidence."
+    },
+    {
+      "id": "SRC-MERNEPTAH-STELE",
+      "record_type": "source",
+      "title": "Merneptah Stele",
+      "source_type": "egyptian_royal_inscription",
+      "date_display": "c. 1208 BC",
+      "review_status": "well_attested_source_identity",
+      "notes": "Egyptian reference to a people called Israel in Canaan; not an account of the Exodus."
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-EXODUS-430",
+      "record_type": "claim",
+      "claim_text": "Exodus 12:40–41 gives a 430-year period ending with the Exodus.",
+      "claim_kind": "textual_claim",
+      "source_ids": [
+        "SRC-EXODUS-12-40"
+      ],
+      "evidence_status": "directly_attested_with_textual_variants",
+      "review_status": "requires_witness_collation",
+      "limitations": "The scope and wording differ across textual traditions and manuscript witnesses."
+    },
+    {
+      "id": "CLM-ISRAEL-MERNEPTAH",
+      "record_type": "claim",
+      "claim_text": "The Merneptah Stele attests a people called Israel in Canaan around 1208 BC.",
+      "claim_kind": "historical_claim",
+      "source_ids": [
+        "SRC-MERNEPTAH-STELE"
+      ],
+      "evidence_status": "directly_attested",
+      "review_status": "ready_for_bibliographic_enrichment",
+      "limitations": "This does not independently identify the Exodus or Moses."
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-EXODUS-EARLY",
+      "record_type": "event",
+      "event_name": "Proposed Exodus under early chronology",
+      "date_display": "1446 BC",
+      "date_start": -1445,
+      "date_end": -1445,
+      "date_precision": "year",
+      "date_basis": "Conditional calculation from 1 Kings 6:1 using the 480-year reading and a conventional date for Solomon's fourth regnal year.",
+      "certainty_status": "chronology_hypothesis",
+      "review_status": "requires_model_comparison"
+    },
+    {
+      "id": "EVT-EXODUS-LATE",
+      "record_type": "event",
+      "event_name": "Proposed Exodus under later chronology",
+      "date_display": "c. 1250 BC",
+      "date_start": -1249,
+      "date_end": -1249,
+      "date_precision": "approximate_year",
+      "date_basis": "Representative date for a later Ramesside-era hypothesis; not a fixed consensus date.",
+      "certainty_status": "chronology_hypothesis",
+      "review_status": "requires_model_comparison"
+    }
+  ]
+}

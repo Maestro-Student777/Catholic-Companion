@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Nexus connects Scripture, history, source research, chronology, documents and learning.">
+<meta name="theme-color" content="#101f30">
+<title>Nexus · Catholic Companion</title>
+<style>
+:root{--navy:#101f30;--navy2:#1b3448;--paper:#f5f1e8;--ink:#172a38;--muted:#66727a;--line:#dcd5c8;--gold:#c39a58;--green:#32715d;--white:#fffdf8;--shadow:0 10px 30px #11283b12}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}button,input,select,textarea{font:inherit}a{color:inherit}.top{height:66px;background:var(--navy);color:#f7f2e8;display:flex;align-items:center;justify-content:space-between;padding:0 24px;gap:15px}.brand{display:flex;gap:11px;align-items:center;text-decoration:none}.mark{width:34px;height:34px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:#e7c989;font:22px Georgia}.brand strong{font:700 18px Georgia}.brand small{display:block;color:#b9c6ce;font-size:9px;letter-spacing:.16em;text-transform:uppercase}.status{border:1px solid #557080;border-radius:99px;padding:5px 10px;color:#d5e3e3;font-size:11px}.layout{display:grid;grid-template-columns:235px minmax(0,1fr);min-height:calc(100vh - 66px)}aside{background:#eae4d8;border-right:1px solid var(--line);padding:20px 13px}.side-label{padding:8px 11px 5px;color:#827965;text-transform:uppercase;font-size:10px;letter-spacing:.15em;font-weight:800}.nav{display:grid;gap:5px}.nav button,.nav a{border:0;background:transparent;color:#314452;text-align:left;padding:10px 12px;border-radius:8px;cursor:pointer;display:flex;gap:10px;align-items:center;font-weight:650;text-decoration:none;font-size:12px}.nav button:hover,.nav a:hover{background:#ffffff90}.nav button[aria-current=page]{background:#fffdf8;color:#173b4d;box-shadow:var(--shadow)}.side-note{margin:23px 5px 0;border-top:1px solid #d5cbbb;padding:13px 8px;color:#6b716f;font-size:11px}.side-note strong{display:block;color:#344b56;margin-bottom:5px}main{min-width:0;padding:26px clamp(16px,3vw,38px) 55px}.view{display:none;max-width:1180px;margin:0 auto}.view.active{display:block}.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.18em;font-weight:850;color:#8a6b38}.heading{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin:2px 0 22px}.heading h1{font:normal clamp(32px,4vw,47px)/1.04 Georgia,serif;margin:7px 0 10px}.heading p{color:var(--muted);max-width:760px;margin:0}.actions{display:flex;flex-wrap:wrap;gap:8px}.btn{border:1px solid #bdad92;background:transparent;color:#294252;border-radius:7px;padding:9px 13px;cursor:pointer;font-weight:700;font-size:12px;text-decoration:none;display:inline-flex;align-items:center;gap:7px}.btn.primary{background:var(--navy);border-color:var(--navy);color:#fff8e9}.btn.gold{background:#e7d5b2;border-color:#e7d5b2;color:#283a43}.btn:hover{filter:brightness(.97)}.hero{background:radial-gradient(circle at 82% 20%,#49697a 0,transparent 30%),linear-gradient(130deg,#12283b,#1e3a4b 68%,#31554d);color:#fff8ed;border-radius:15px;padding:clamp(22px,4vw,40px);margin-bottom:16px;position:relative;overflow:hidden}.hero:after{content:"✦";position:absolute;right:6%;top:-38px;font:220px Georgia;color:#ffffff0b;pointer-events:none}.hero .eyebrow{color:#e9c98f}.hero h2{font:normal clamp(32px,5vw,53px)/1.02 Georgia,serif;margin:9px 0 12px;max-width:760px}.hero p{max-width:780px;color:#d7e0df;font-size:14px}.hero .btn{position:relative;z-index:1}.grid{display:grid;gap:13px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.card{background:var(--white);border:1px solid var(--line);border-radius:11px;padding:18px;box-shadow:var(--shadow);min-width:0}.card h2,.card h3{font-family:Georgia,serif;font-weight:normal;margin:0 0 8px}.card h2{font-size:22px}.card h3{font-size:18px}.card p{color:var(--muted);margin:0 0 11px;font-size:12px}.metric{font:normal 30px Georgia,serif;color:#24475a}.metric-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.09em}.module{display:flex;gap:12px;align-items:flex-start;text-decoration:none;border:1px solid var(--line);background:var(--white);border-radius:10px;padding:14px;min-height:94px;box-shadow:var(--shadow)}.module:hover{border-color:#b69965}.module-icon{width:36px;height:36px;border-radius:9px;background:#eee6d7;display:grid;place-items:center;font-size:18px;flex:0 0 auto}.module strong{display:block;font:normal 17px Georgia,serif;margin-bottom:3px}.module small{display:block;color:var(--muted);font-size:11px}.arrow{margin-left:auto;color:#967541}.section-title{display:flex;justify-content:space-between;align-items:baseline;margin:23px 0 10px}.section-title h2{font:normal 24px Georgia,serif;margin:0}.section-title span{color:var(--muted);font-size:11px}.pill{display:inline-flex;border-radius:99px;padding:4px 8px;font-size:10px;font-weight:800;background:#e9e4d8;color:#65583f}.pill.green{background:#dfede5;color:#286249}.pill.blue{background:#e3edf5;color:#3b6485}.pill.amber{background:#f3ead7;color:#765d2a}.pill.red{background:#f0e4df;color:#844d3b}.field{display:grid;gap:5px}.field label{font-size:11px;font-weight:800;color:#576771}.field input,.field select,.field textarea{width:100%;border:1px solid #d6cdbf;border-radius:7px;background:white;padding:10px;color:var(--ink)}.field textarea{min-height:75px;resize:vertical}.formgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.field.full{grid-column:1/-1}.hint{font-size:11px;color:var(--muted)}.notice{padding:11px 13px;border-radius:8px;background:#f2ead8;border-left:3px solid var(--gold);font-size:12px;color:#5d563f;margin:11px 0}.notice.red{background:#f5e9e4;border-color:#98634f;color:#714638}.notice.green{background:#e8f1e9;border-color:var(--green);color:#345b46}.record{border-top:1px solid #e7e1d8;padding:10px 0}.record:first-child{border-top:0}.record strong{font-size:12px}.record p{margin:3px 0 0;font-size:11px}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:9px;background:var(--white)}table{width:100%;border-collapse:collapse;font-size:11px}th,td{text-align:left;padding:10px 11px;border-bottom:1px solid #e9e3d9;vertical-align:top}th{background:#eee8dc;color:#56636a;font-size:9px;text-transform:uppercase;letter-spacing:.08em}tr:last-child td{border-bottom:0}.timeline{display:grid;gap:9px}.event{display:grid;grid-template-columns:105px minmax(0,1fr);gap:13px;padding:13px;border:1px solid var(--line);background:var(--white);border-radius:9px}.event time{font:normal 18px Georgia,serif;color:#8a6c39}.event strong{font:normal 16px Georgia,serif}.event p{margin:4px 0 0;color:var(--muted);font-size:11px}.tabs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}.tabs button{border:1px solid #c9bdab;background:#fffdf8;border-radius:99px;padding:8px 12px;cursor:pointer;font-size:11px;font-weight:750}.tabs button[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy)}.small-list{display:grid;gap:7px}.small-list label{display:flex;gap:8px;align-items:flex-start;font-size:11px}.small-list input{margin-top:3px}.empty{color:var(--muted);font-size:12px;padding:10px 0}.footer-note{color:#788088;font-size:10px;border-top:1px solid var(--line);margin-top:27px;padding-top:12px}
+@media(max-width:920px){.layout{grid-template-columns:195px minmax(0,1fr)}.grid.three{grid-template-columns:repeat(2,minmax(0,1fr))}.heading{display:block}.heading .actions{margin-top:12px}}
+@media(max-width:660px){.top{padding:0 13px}.layout{display:block}.layout aside{padding:8px 10px;border-right:0;border-bottom:1px solid var(--line)}.side-label,.side-note{display:none}.nav{display:flex;overflow-x:auto}.nav button,.nav a{white-space:nowrap;padding:8px 10px}.nav .ico{display:none}main{padding:18px 12px 40px}.grid.two,.grid.three{grid-template-columns:1fr}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.event{grid-template-columns:1fr;gap:2px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../"><span class="mark">✠</span><span><strong>NEXUS</strong><small>Catholic Companion · Unified knowledge workspace</small></span></a>
+  <div class="status">FOUNDATION BUILD · 0.1</div>
+</header>
+<div class="layout">
+<aside>
+  <div class="side-label">Workspace</div>
+  <nav class="nav" aria-label="Nexus workspace">
+    <button data-view="overview" aria-current="page"><span class="ico">⌂</span>Overview</button>
+    <button data-view="reader"><span class="ico">▤</span>Scripture setup</button>
+    <button data-view="timeline"><span class="ico">◷</span>Timeline</button>
+    <button data-view="library"><span class="ico">▣</span>Source library</button>
+    <button data-view="intake"><span class="ico">⇧</span>Document intake</button>
+    <button data-view="rights"><span class="ico">⚖</span>Text permissions</button>
+    <button data-view="roadmap"><span class="ico">✧</span>Build roadmap</button>
+  </nav>
+  <div class="side-label" style="margin-top:20px">Existing instruments</div>
+  <nav class="nav">
+    <a href="../scripture-evidence/">⌕ Scripture Evidence</a>
+    <a href="../countless-cabinet/">▤ Countless Cabinet</a>
+    <a href="../solarium/">☀ Solarium Rhythm</a>
+    <a href="../motion-showcase/">✦ Motion Showcase</a>
+    <a href="../mercy/">♡ Mercy Amplification</a>
+    <a href="../liturgy/">◷ Living Liturgy</a>
+  </nav>
+  <div class="side-note"><strong>One connected foundation</strong>New modules should reference shared records and retain their own source, rights, and revision history.</div>
+</aside>
+<main>
+<section class="view active" id="view-overview">
+  <div class="hero">
+    <div class="eyebrow">One environment · many ways to understand</div>
+    <h2>Bring the library together.<br>Keep the evidence visible.</h2>
+    <p>Nexus is the shared home for Scripture, textual traditions, chronology, people, places, historical sources, documents, and learning experiences. This first build is a foundation and integration map—not yet a synchronized cloud archive or licensed multi-Bible reader.</p>
+    <div class="actions"><button class="btn gold" data-go="reader">Configure a reading desk →</button><button class="btn" data-go="intake">Register a document</button></div>
+  </div>
+  <div class="grid three">
+    <article class="card"><div class="metric">06</div><div class="metric-label">Existing major instruments</div><p style="margin-top:8px">Scripture Evidence, Countless Cabinet, Solarium, Motion Showcase, Mercy, and Liturgy.</p></article>
+    <article class="card"><div class="metric">01</div><div class="metric-label">Shared foundation</div><p style="margin-top:8px">This Nexus layer provides a common direction for integrating their records and navigation.</p></article>
+    <article class="card"><div class="metric">0</div><div class="metric-label">Full Bible editions cleared here</div><p style="margin-top:8px">No full copyrighted Bible text is bundled in this prototype.</p></article>
+  </div>
+  <div class="section-title"><h2>Connected instruments</h2><span>Open existing work; do not duplicate it</span></div>
+  <div class="grid two">
+    <a class="module" href="../scripture-evidence/"><span class="module-icon">⌕</span><span><strong>Scripture Evidence & Discovery</strong><small>Claim ledger, source registry, places, events, questions, rules and JSON backup.</small></span><span class="arrow">↗</span></a>
+    <a class="module" href="../countless-cabinet/"><span class="module-icon">▤</span><span><strong>Countless Cabinet</strong><small>Historical catalogs, people, events, timeline and comparison material.</small></span><span class="arrow">↗</span></a>
+    <a class="module" href="../solarium/"><span class="module-icon">☀</span><span><strong>Solarium Rhythm</strong><small>Chronology, celestial clock and Earth Story Atlas experience.</small></span><span class="arrow">↗</span></a>
+    <a class="module" href="../motion-showcase/"><span class="module-icon">✦</span><span><strong>Motion Showcase</strong><small>Presentation and motion experiments for movie mode.</small></span><span class="arrow">↗</span></a>
+    <a class="module" href="../mercy/"><span class="module-icon">♡</span><span><strong>Mercy Amplification</strong><small>Retained practical resources and works of mercy.</small></span><span class="arrow">↗</span></a>
+    <a class="module" href="../liturgy/"><span class="module-icon">◷</span><span><strong>Living Liturgy</strong><small>Daily liturgical calendar and reading links.</small></span><span class="arrow">↗</span></a>
+  </div>
+  <div class="section-title"><h2>Working principles</h2><span>Apply to every module</span></div>
+  <div class="grid two">
+    <article class="card"><span class="pill green">Source first</span><h3 style="margin-top:9px">Preserve the testimony</h3><p>Separate a source's exact statement from interpretation, inference, and later commentary.</p></article>
+    <article class="card"><span class="pill blue">Traceable</span><h3 style="margin-top:9px">Every claim has a trail</h3><p>Connect claims to sources, passages, pages, dates, authors, and counterevidence.</p></article>
+    <article class="card"><span class="pill amber">Rights aware</span><h3 style="margin-top:9px">Permission before publication</h3><p>Track text, translation, notes, audio, image, AI-processing, and distribution rights separately.</p></article>
+    <article class="card"><span class="pill">Human judgment</span><h3 style="margin-top:9px">AI assists; people decide</h3><p>Expose uncertainty and competing interpretations. Never auto-assign a religious identity or doctrinal conclusion.</p></article>
+  </div>
+  <div class="footer-note">Foundation build 0.1 · Local browser preferences only · No server upload, account sync, or complete Scripture corpus is implemented in this first page.</div>
+</section>
+
+<section class="view" id="view-reader">
+  <div class="heading"><div><div class="eyebrow">Reading environment</div><h1>Scripture setup</h1><p>Choose the Bible, textual witnesses, language, reading level, and interpretive context independently. These preferences configure the future reader; this prototype does not yet supply licensed full-text editions.</p></div></div>
+  <div class="grid two">
+    <article class="card">
+      <h2>Reading desk</h2>
+      <form id="readerForm" class="formgrid">
+        <div class="field full"><label for="primaryBible">Primary Bible edition</label><select id="primaryBible"><option>Douay-Rheims (edition to be specified)</option><option>NABRE</option><option>RSV-CE</option><option>NRSVue / NRSVue-CE</option><option>ESV</option><option>KJV</option><option>World English Bible</option><option>Other / not yet selected</option></select></div>
+        <div class="field"><label for="readingLevel">Reading level</label><select id="readingLevel"><option>Accessible</option><option selected>Standard</option><option>Study</option><option>Academic</option><option>Technical / original languages</option></select></div>
+        <div class="field"><label for="language">Display language</label><select id="language"><option>English</option><option>Hebrew</option><option>Aramaic</option><option>Greek</option><option>Latin</option><option>Side-by-side multilingual</option></select></div>
+        <div class="field full"><label for="context">Interpretive context</label><select id="context"><option>Historical and literary</option><option>Catholic theological</option><option>Eastern Orthodox theological</option><option>Jewish interpretive traditions</option><option>Samaritan textual and religious tradition</option><option>Comparative religion</option><option>Multiple contexts side-by-side</option></select></div>
+        <div class="field full"><label>Additional witnesses to compare</label><div class="small-list">
+          <label><input type="checkbox" name="witness" value="Hebrew Masoretic Text"> Hebrew Masoretic Text</label>
+          <label><input type="checkbox" name="witness" value="Septuagint"> Septuagint</label>
+          <label><input type="checkbox" name="witness" value="Samaritan Pentateuch"> Samaritan Pentateuch</label>
+          <label><input type="checkbox" name="witness" value="Vulgate"> Latin Vulgate</label>
+          <label><input type="checkbox" name="witness" value="Dead Sea Scrolls"> Relevant Dead Sea Scroll witnesses</label>
+        </div></div>
+        <div class="field full"><button class="btn primary" type="submit">Save local reading preferences</button></div>
+      </form>
+      <div class="notice">A reading-level selection changes explanations, not the wording of the Bible text. A commentary or tradition filter must never silently alter the source text.</div>
+    </article>
+    <article class="card">
+      <h2>Example study configuration</h2>
+      <p>Passage reference: Exodus 1:8–14</p>
+      <div id="readerSummary" class="notice green">Select a Bible and context, then save your preferences to preview the configuration.</div>
+      <h3>Future reader capabilities</h3>
+      <div class="record"><strong>Parallel text columns</strong><p>Compare multiple authorized editions by verse, with edition metadata.</p></div>
+      <div class="record"><strong>Textual apparatus</strong><p>Show manuscript readings, variants, language, and editorial decisions separately.</p></div>
+      <div class="record"><strong>Linked research</strong><p>Connect a selected verse to people, events, places, claims, sources, and notes.</p></div>
+      <div class="record"><strong>Reading modes</strong><p>Accessible reading, study notes, scholarly apparatus, narration, and presentation.</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="view" id="view-timeline">
+  <div class="heading"><div><div class="eyebrow">Chronology laboratory</div><h1>Timeline</h1><p>Keep event chronology separate from the date a source was composed, edited, copied, translated, or printed.</p></div></div>
+  <div class="tabs" role="group" aria-label="Chronology model"><button data-model="early" aria-pressed="true">Early model · 1446 BC</button><button data-model="late" aria-pressed="false">Late model · c. 1250 BC</button><button data-model="textual" aria-pressed="false">Textual chronology questions</button></div>
+  <div class="notice">Dates are working models for investigation, not established results. Egyptian reign dates and biblical intervals must retain their own source and uncertainty metadata.</div>
+  <div class="timeline" id="timelineRecords">
+    <div class="event"><time>c. 1876 BC</time><div><strong>Jacob enters Egypt · conditional calculation</strong><p>Derived from 430 years in Egypt and a 1446 BC Exodus. Not an Egyptian attestation.</p></div></div>
+    <div class="event"><time>1446 BC</time><div><strong>Proposed Exodus · early chronology</strong><p>Derived from the 480-year reading in 1 Kings 6:1 and a conventional date for Solomon's fourth year. Requires independent testing.</p></div></div>
+    <div class="event"><time>c. 1250 BC</time><div><strong>Proposed Exodus · later chronology</strong><p>A commonly discussed Ramesside-era proposal. Test against Pi-Ramesses and Israel's attestation by c. 1208 BC.</p></div></div>
+    <div class="event"><time>c. 1208 BC</time><div><strong>Merneptah Stele</strong><p>Secure Egyptian reference to a people called Israel in Canaan. This is a chronological checkpoint, not an Egyptian Exodus account.</p></div></div>
+  </div>
+  <p class="hint">The prototype timeline is intentionally small. Verified and disputed events will be managed in the shared record system rather than hard-coded into the interface.</p>
+</section>
+
+<section class="view" id="view-library">
+  <div class="heading"><div><div class="eyebrow">Compendium and archive</div><h1>Source library</h1><p>Register sources before extracting claims from them. A source entry describes an artifact; it is not itself a verified conclusion.</p></div><div class="actions"><button class="btn" id="exportSources">Export local source register</button></div></div>
+  <div class="grid two">
+    <article class="card"><h2>Add a source record</h2>
+      <form id="sourceForm" class="formgrid">
+        <div class="field full"><label for="srcTitle">Title / citation</label><input id="srcTitle" required maxlength="180" placeholder="e.g. Papyrus Brooklyn 35.1446"></div>
+        <div class="field"><label for="srcType">Source type</label><select id="srcType"><option>Primary text / inscription</option><option>Manuscript witness</option><option>Translation / edition</option><option>Archaeological report</option><option>Scholarly publication</option><option>Church / institutional document</option><option>User-supplied document</option><option>Media / image</option><option>Other</option></select></div>
+        <div class="field"><label for="srcDate">Date / period</label><input id="srcDate" placeholder="Date or range; mark approximate"></div>
+        <div class="field full"><label for="srcUrl">URL / stable locator</label><input id="srcUrl" type="url" placeholder="https://…"></div>
+        <div class="field full"><label for="srcNotes">Provenance, limitations, and research notes</label><textarea id="srcNotes"></textarea></div>
+        <div class="field full"><button class="btn primary">Register locally</button></div>
+      </form>
+    </article>
+    <article class="card"><h2>Seed sources</h2>
+      <div class="record"><strong>Exodus 12:40–41</strong><p>Biblical passage · textual comparison required across MT, LXX and SP.</p></div>
+      <div class="record"><strong>Deuteronomy 31:24–26</strong><p>Biblical passage · writing and custody notice.</p></div>
+      <div class="record"><strong>Papyrus Brooklyn 35.1446</strong><p>Egyptian administrative document · Asiatic population evidence.</p></div>
+      <div class="record"><strong>Merneptah Stele</strong><p>Egyptian royal inscription · secure Israel attestation in Canaan.</p></div>
+    </article>
+  </div>
+  <div class="section-title"><h2>Local source records</h2><span id="sourceCount">0 added in this browser</span></div>
+  <div id="sourceRecords" class="card"><p class="empty">No locally registered sources yet.</p></div>
+</section>
+
+<section class="view" id="view-intake">
+  <div class="heading"><div><div class="eyebrow">Document ingestion</div><h1>Document intake desk</h1><p>Upload or register material in stages: preserve the original, capture provenance and rights, extract text, index it, then approve derived claims.</p></div></div>
+  <div class="notice red"><strong>Prototype limitation:</strong> this public page does not send files to a server, store their contents, or sync them between devices. Selecting a file below only registers its metadata in this browser. For actual document analysis, attach files in this conversation. Do not place unlicensed Bible texts or private documents in the public GitHub repository.</div>
+  <div class="grid two">
+    <article class="card">
+      <h2>Register local files</h2>
+      <div class="field"><label for="fileInput">Choose documents or media</label><input id="fileInput" type="file" multiple accept=".pdf,.doc,.docx,.txt,.md,.html,.htm,.rtf,.csv,.json,.xlsx,.xls,.ppt,.pptx,.png,.jpg,.jpeg,.tif,.tiff,.mp3,.wav,.mp4"></div>
+      <p class="hint">Accepted for inventory: PDF, DOCX, TXT, Markdown, HTML, spreadsheets, slides, images, and audio/video. Actual content extraction and secure storage will be implemented later.</p>
+      <div class="actions"><button class="btn primary" id="registerFiles">Register selected file metadata</button><button class="btn" id="exportIntake">Export intake manifest</button></div>
+      <div id="fileFeedback" class="hint" aria-live="polite"></div>
+    </article>
+    <article class="card">
+      <h2>What happens after a file is supplied?</h2>
+      <div class="record"><strong>1. Preserve</strong><p>Keep the original unchanged, with its name, format, origin, version and checksum.</p></div>
+      <div class="record"><strong>2. Identify rights</strong><p>Record owner, permission, license scope, territory, expiration and permitted uses.</p></div>
+      <div class="record"><strong>3. Extract and locate</strong><p>Capture text with page, section, verse, timestamp or table coordinates.</p></div>
+      <div class="record"><strong>4. Index and connect</strong><p>Link claims and entities to exact passages without losing the original document.</p></div>
+      <div class="record"><strong>5. Review and publish</strong><p>Mark review status and publish only material cleared for the intended audience and use.</p></div>
+    </article>
+  </div>
+  <div class="section-title"><h2>Registered file metadata</h2><span>Browser-local inventory</span></div>
+  <div id="fileRecords" class="card"><p class="empty">No files registered.</p></div>
+</section>
+
+<section class="view" id="view-rights">
+  <div class="heading"><div><div class="eyebrow">Publication governance</div><h1>Text and media permissions</h1><p>Permission for one compendium or one type of use does not automatically grant rights to reproduce every Bible edition, study note, map, image, audio recording, or dataset.</p></div></div>
+  <div class="notice red"><strong>Publication gate:</strong> do not ingest, distribute, transform, or submit a copyrighted text to an AI workflow unless the relevant license or written permission authorizes that exact use. Display rights, storage rights, indexing rights, AI-processing rights, audio rights, and redistribution rights may differ.</div>
+  <div class="table-wrap"><table><thead><tr><th>Edition / resource</th><th>What current public terms indicate</th><th>Project status</th><th>Next action</th></tr></thead><tbody>
+    <tr><td><strong>Original Douay-Rheims</strong><br>1582 / 1609–1610</td><td>The cited provider states the original translation is public domain and offers structured data under CC0. Verify the exact downloaded edition and any separate annotations.</td><td><span class="pill amber">Candidate · verify file</span></td><td>Inspect provenance, edition, dataset license and attribution before import.</td></tr>
+    <tr><td><strong>Open Scriptures Hebrew Bible</strong></td><td>Westminster Leningrad Codex text is identified as public domain; morphology and lemma data carry CC BY 4.0 attribution conditions.</td><td><span class="pill amber">Candidate · attribution required</span></td><td>Keep text and scholarly markup/data licenses separate.</td></tr>
+    <tr><td><strong>NABRE</strong></td><td>USCCB / CCD permissions page says digital permissions are no longer being granted for NABRE. Future Catholic American Bible digital licensing was not yet open on the page checked.</td><td><span class="pill red">Do not integrate full text</span></td><td>Use authorized links; monitor official licensing changes.</td></tr>
+    <tr><td><strong>ESV · Text Edition 2025</strong></td><td>Crossway's digital permissions page includes standard quotation rules, but also states ESV text may not be used, accessed or processed by AI systems for listed purposes.</td><td><span class="pill red">AI restriction identified</span></td><td>Do not send ESV text to AI or include it in AI analysis absent express written terms that clearly authorize it.</td></tr>
+    <tr><td><strong>NRSV / NRSVue / NRSVueCE</strong></td><td>National Council of Churches / Friendship Press owns the text; Petradi manages licensing and Scribe provides text files to licensees.</td><td><span class="pill amber">License required</span></td><td>Request digital terms for full text, parallel display, storage, audio, and AI uses.</td></tr>
+  </tbody></table></div>
+  <div class="section-title"><h2>Permission record checklist</h2><span>Complete before publication</span></div>
+  <div class="grid two">
+    <article class="card"><h3>Edition identity</h3><p>Exact title, revision, language, publisher, copyright owner, source file, territory and version date.</p></article>
+    <article class="card"><h3>Allowed operations</h3><p>Read, display, store, cache, index, quote, compare, annotate, translate, narrate, transform, AI-process and redistribute.</p></article>
+    <article class="card"><h3>Audience and distribution</h3><p>Private research, public website, educational use, app, commercial use, downloads, print, audio or API.</p></article>
+    <article class="card"><h3>Proof and renewal</h3><p>Written permission, signed license, terms URL and date checked, notices, fees, term and renewal conditions.</p></article>
+  </div>
+</section>
+
+<section class="view" id="view-roadmap">
+  <div class="heading"><div><div class="eyebrow">Incremental implementation</div><h1>Build roadmap</h1><p>Start with a stable foundation, prove one connected workflow, then expand. Preserve working modules and migrate them deliberately instead of rebuilding everything at once.</p></div></div>
+  <div class="timeline">
+    <div class="event"><time>Phase 0</time><div><strong>Foundation and inventory</strong><p>Nexus entrance, architecture, data model, intake process, rights register and links to existing modules.</p><span class="pill green">Started</span></div></div>
+    <div class="event"><time>Phase 1</time><div><strong>Normalize current data</strong><p>Define stable IDs and export/import schemas; map Scripture Evidence, Countless Cabinet, Solarium, Liturgy and other module records.</p><span class="pill amber">Next</span></div></div>
+    <div class="event"><time>Phase 2</time><div><strong>One working research loop</strong><p>Use Exodus 1:8–14: select editions, compare authorized text, connect claims to sources, timeline and geography, then export a sourced compendium.</p><span class="pill">Planned</span></div></div>
+    <div class="event"><time>Phase 3</time><div><strong>Persistent archive and ingestion</strong><p>Add authenticated storage, file processing, page-level citations, version history, permissions, backups and multi-device sync.</p><span class="pill">Planned</span></div></div>
+    <div class="event"><time>Phase 4</time><div><strong>Licensed Bible and manuscript providers</strong><p>Integrate editions only after the exact digital, AI, derivative, caching and distribution rights are recorded.</p><span class="pill">Planned</span></div></div>
+    <div class="event"><time>Phase 5</time><div><strong>Movie mode, game learning and publication</strong><p>Connect timeline, maps, sound, slides, quizzes, review challenges and story sequences to the same records.</p><span class="pill">Planned</span></div></div>
+  </div>
+  <div class="notice green">Definition of a successful first milestone: one passage can be read in a rights-cleared text, compared against a second witness, linked to a historical source and timeline record, saved with provenance, and exported without losing citations.</div>
+</section>
+</main>
+</div>
+<script>
+(function(){
+  const key="nexus.foundation.v01";
+  const defaults={reader:null,sources:[],files:[]};
+  let state;
+  try{state=Object.assign({},defaults,JSON.parse(localStorage.getItem(key)||"{}"));}catch(e){state=Object.assign({},defaults);}
+  const save=function(){try{localStorage.setItem(key,JSON.stringify(state));}catch(e){alert("This browser could not save the local workspace. Export a backup before closing.");}};
+  const views=[...document.querySelectorAll(".view")];
+  function show(id){views.forEach(v=>v.classList.toggle("active",v.id==="view-"+id));document.querySelectorAll("[data-view]").forEach(b=>{if(b.dataset.view===id)b.setAttribute("aria-current","page");else b.removeAttribute("aria-current");});window.scrollTo({top:0,behavior:"smooth"});}
+  document.querySelectorAll("[data-view]").forEach(b=>b.addEventListener("click",()=>show(b.dataset.view)));
+  document.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>show(b.dataset.go)));
+  function download(name,obj){const blob=new Blob([JSON.stringify(obj,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
+  const readerForm=document.getElementById("readerForm");
+  function renderReader(){if(!state.reader)return;const r=state.reader;document.getElementById("primaryBible").value=r.primary;document.getElementById("readingLevel").value=r.level;document.getElementById("language").value=r.language;document.getElementById("context").value=r.context;document.querySelectorAll('input[name="witness"]').forEach(x=>x.checked=(r.witnesses||[]).includes(x.value));document.getElementById("readerSummary").textContent="Primary edition: "+r.primary+" · Level: "+r.level+" · Language: "+r.language+" · Context: "+r.context+" · Witnesses: "+((r.witnesses||[]).join(", ")||"none selected")+". These are preferences only; no full text has been loaded.";}
+  readerForm.addEventListener("submit",function(e){e.preventDefault();state.reader={primary:document.getElementById("primaryBible").value,level:document.getElementById("readingLevel").value,language:document.getElementById("language").value,context:document.getElementById("context").value,witnesses:[...document.querySelectorAll('input[name="witness"]:checked')].map(x=>x.value)};save();renderReader();});
+  document.getElementById("sourceForm").addEventListener("submit",function(e){e.preventDefault();const v=id=>document.getElementById(id).value.trim();state.sources.unshift({id:"USR-SRC-"+Date.now(),title:v("srcTitle"),type:v("srcType"),date:v("srcDate"),url:v("srcUrl"),notes:v("srcNotes"),status:"Unreviewed user entry",createdAt:new Date().toISOString()});save();e.target.reset();renderSources();});
+  function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+  function renderSources(){const box=document.getElementById("sourceRecords");document.getElementById("sourceCount").textContent=state.sources.length+" added in this browser";if(!state.sources.length){box.innerHTML='<p class="empty">No locally registered sources yet.</p>';return;}box.innerHTML=state.sources.map(x=>'<div class="record"><strong>'+esc(x.title)+'</strong> <span class="pill">'+esc(x.type)+'</span><p>'+esc(x.date)+' · '+esc(x.status)+'</p><p>'+esc(x.notes)+'</p>'+(x.url?'<a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">Open source ↗</a>':'')+'</div>').join("");}
+  document.getElementById("exportSources").addEventListener("click",()=>download("nexus-source-register.json",{schemaVersion:"0.1",sources:state.sources}));
+  const fileInput=document.getElementById("fileInput");
+  document.getElementById("registerFiles").addEventListener("click",function(){const fs=[...fileInput.files];if(!fs.length){document.getElementById("fileFeedback").textContent="Choose one or more files first.";return;}fs.forEach(f=>state.files.unshift({id:"USR-DOC-"+Date.now()+"-"+Math.random().toString(36).slice(2,7),name:f.name,mimeType:f.type||"unknown",sizeBytes:f.size,lastModified:new Date(f.lastModified).toISOString(),intakeStatus:"Metadata registered only",rightsStatus:"Not reviewed",contentStored:false,createdAt:new Date().toISOString()}));save();fileInput.value="";document.getElementById("fileFeedback").textContent=fs.length+" file record(s) registered. The file contents were not uploaded or stored.";renderFiles();});
+  function renderFiles(){const box=document.getElementById("fileRecords");if(!state.files.length){box.innerHTML='<p class="empty">No files registered.</p>';return;}box.innerHTML='<div class="table-wrap"><table><thead><tr><th>File</th><th>Format</th><th>Size</th><th>Rights</th><th>Content</th></tr></thead><tbody>'+state.files.map(f=>'<tr><td>'+esc(f.name)+'</td><td>'+esc(f.mimeType)+'</td><td>'+Math.round(f.sizeBytes/1024)+' KB</td><td>'+esc(f.rightsStatus)+'</td><td>Metadata only</td></tr>').join("")+'</tbody></table></div>';}
+  document.getElementById("exportIntake").addEventListener("click",()=>download("nexus-intake-manifest.json",{schemaVersion:"0.1",files:state.files,notice:"Metadata only; original file bytes are not included."}));
+  document.querySelectorAll("[data-model]").forEach(b=>b.addEventListener("click",function(){document.querySelectorAll("[data-model]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));const type=b.dataset.model,box=document.getElementById("timelineRecords");const sets={
+    early:[["c. 1876 BC","Jacob enters Egypt · conditional calculation","Derived from 430 years in Egypt and a 1446 BC Exodus. Not an Egyptian attestation."],["c. 1526 BC","Moses' birth · conditional calculation","Age 80 at the proposed 1446 BC Exodus. Depends on accepting the Acts 7 age framework."],["1446 BC","Proposed Exodus · early chronology","Derived from the 480-year reading of 1 Kings 6:1 and a conventional date for Solomon's fourth regnal year."],["c. 1208 BC","Merneptah Stele","Egyptian reference to Israel in Canaan; an external chronological checkpoint."]],
+    late:[["c. 1661 BC","Jacob enters Egypt · conditional calculation","One possible reconstruction if the 430 years include Canaan and Egypt, using the patriarchal ages."],["c. 1330 BC","Moses' birth · illustrative calculation","Age 80 at a c. 1250 BC Exodus. Exact Pharaoh identification remains disputed."],["c. 1250 BC","Proposed Exodus · later chronology","A Ramesside-era proposal; test against Pi-Ramesses and Israel's attestation by c. 1208 BC."],["c. 1208 BC","Merneptah Stele","Israel is already attested in Canaan, setting a constraint on the later model."]],
+    textual:[["Event date","When does the narrative place the event?","Keep this separate from the date the text was composed."],["Writing date","When does the text say a person wrote something?","Record explicit writing notices separately from inferred composition dates."],["Composition date","When did the text reach its literary form?","Allow multiple stages and later editorial activity."],["Manuscript date","When was a surviving physical witness copied?","A manuscript date is not automatically the date of the underlying testimony."]]
+  };box.innerHTML=sets[type].map(e=>'<div class="event"><time>'+esc(e[0])+'</time><div><strong>'+esc(e[1])+'</strong><p>'+esc(e[2])+'</p></div></div>').join("");}));
+  renderReader();renderSources();renderFiles();
+})();
+</script>
+</body>
+</html>

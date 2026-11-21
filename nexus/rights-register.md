@@ -14,13 +14,13 @@ Separate these operations: read or link to the publisher's text; display selecte
 
 ### Original Douay-Rheims
 
-The source site The Original Douay-Rheims states that the original 1582 New Testament and 1609–1610 Old Testament translation is public domain. It also states that its structured data downloads are released under CC0 1.0. This is a promising candidate for an initial corpus, but the exact file, edition, annotations, and data package must be checked before import.
+The Original Douay-Rheims website states that the original 1582 New Testament and 1609–1610 Old Testament translation is public domain. However, the site's current Terms page (updated March 2026) describes the structured JSON data prepared for the site—including verse segmentation, chapter summaries, and formatted annotations—as available for personal, scholarly, and non-commercial use. Its Downloads page separately describes complete download files as CC0 1.0. Because those descriptions are not perfectly aligned, do not assume every downloaded package, annotation set, transcription, modernized spelling layer, or editorial feature has the same permissions. Inspect the exact package's included license and request clarification for commercial use or broad AI-processing workflows.
 
 - Terms: https://thedouayrheims.com/terms
 - Downloads: https://thedouayrheims.com/download
 - About and edition distinctions: https://thedouayrheims.com/about
 
-Do not assume that every modern edition, annotation, introduction, typography, or scan associated with a historic translation has identical rights.
+The translation itself is a strong candidate for the first reader corpus, subject to recording its exact textual base and verifying the rights for the specific digital file and its annotations.
 
 ### Open Scriptures Hebrew Bible
 

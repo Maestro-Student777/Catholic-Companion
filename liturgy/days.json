@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-21T15:34:30+00:00",
+  "updated_utc": "2026-11-22T15:37:54+00:00",
   "days": [
-    {
-      "date": "2026-11-12",
-      "title": "Memorial of Saint Josaphat, Bishop and Martyr",
-      "url": "https://bible.usccb.org/bible/readings/111226.cfm"
-    },
     {
       "date": "2026-11-13",
       "title": "Memorial of Saint Frances Xavier Cabrini, Virgin [In the Dioceses of the United States]",
@@ -51,6 +46,11 @@
       "date": "2026-11-21",
       "title": "Memorial of the Presentation of the Blessed Virgin Mary",
       "url": "https://bible.usccb.org/bible/readings/112126.cfm"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "The Solemnity of Our Lord Jesus Christ, King of the Universe",
+      "url": "https://bible.usccb.org/bible/readings/112226.cfm"
     }
   ]
 }

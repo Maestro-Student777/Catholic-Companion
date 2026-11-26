@@ -1,22 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-25T18:09:32+00:00",
+  "updated_utc": "2026-11-26T17:52:17+00:00",
   "days": [
-    {
-      "date": "2026-11-16",
-      "title": "Monday of the Thirty-third Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/111626.cfm"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "Memorial of Saint Elizabeth of Hungary, Religious",
-      "url": "https://bible.usccb.org/bible/readings/111726.cfm"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Wednesday of the Thirty-third Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/111826.cfm"
-    },
     {
       "date": "2026-11-19",
       "title": "Thursday of the Thirty-third Week in Ordinary Time",
@@ -51,6 +36,11 @@
       "date": "2026-11-25",
       "title": "Wednesday of the Thirty-fourth Week in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/112526.cfm"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Thursday of the Thirty-fourth Week in Ordinary Time-Thanksgiving",
+      "url": "https://bible.usccb.org/bible/readings/112626.cfm"
     }
   ]
 }

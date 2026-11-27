@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-26T17:52:17+00:00",
+  "updated_utc": "2026-11-27T17:37:58+00:00",
   "days": [
-    {
-      "date": "2026-11-19",
-      "title": "Thursday of the Thirty-third Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/111926.cfm"
-    },
     {
       "date": "2026-11-20",
       "title": "Friday of the Thirty-third Week in Ordinary Time",
@@ -41,6 +36,11 @@
       "date": "2026-11-26",
       "title": "Thursday of the Thirty-fourth Week in Ordinary Time-Thanksgiving",
       "url": "https://bible.usccb.org/bible/readings/112626.cfm"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Friday of the Thirty-fourth Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/112726.cfm"
     }
   ]
 }

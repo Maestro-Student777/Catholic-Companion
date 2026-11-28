@@ -1,12 +1,7 @@
 {
   "source": "https://bible.usccb.org/readings.rss",
-  "updated_utc": "2026-11-27T17:37:58+00:00",
+  "updated_utc": "2026-11-28T16:21:50+00:00",
   "days": [
-    {
-      "date": "2026-11-20",
-      "title": "Friday of the Thirty-third Week in Ordinary Time",
-      "url": "https://bible.usccb.org/bible/readings/112026.cfm"
-    },
     {
       "date": "2026-11-21",
       "title": "Memorial of the Presentation of the Blessed Virgin Mary",
@@ -41,6 +36,11 @@
       "date": "2026-11-27",
       "title": "Friday of the Thirty-fourth Week in Ordinary Time",
       "url": "https://bible.usccb.org/bible/readings/112726.cfm"
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Saturday of the Thirty-fourth Week in Ordinary Time",
+      "url": "https://bible.usccb.org/bible/readings/112826.cfm"
     }
   ]
 }
